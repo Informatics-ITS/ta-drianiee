@@ -1,6 +1,6 @@
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
-
+import { Button } from "@/components/ui/button"  // Ensure Button is imported from your project
 import { cn } from "@/lib/utils"
 
 const alertVariants = cva(
@@ -11,6 +11,8 @@ const alertVariants = cva(
         default: "bg-card text-card-foreground",
         destructive:
           "text-destructive bg-card [&>svg]:text-current *:data-[slot=alert-description]:text-destructive/90",
+        warning:
+          "bg-yellow-50 [&>svg]:text-yellow-800 *:data-[slot=alert-title]:text-yellow-800 *:data-[slot=alert-description]:text-yellow-700",
       },
     },
     defaultVariants: {
@@ -19,18 +21,27 @@ const alertVariants = cva(
   }
 )
 
+type AlertProps = React.ComponentProps<"div"> & VariantProps<typeof alertVariants> & {
+  button?: React.ReactNode // Optional button prop
+}
+
 function Alert({
   className,
   variant,
+  button,  // Accept the optional button prop
   ...props
-}: React.ComponentProps<"div"> & VariantProps<typeof alertVariants>) {
+}: AlertProps) {
   return (
     <div
       data-slot="alert"
       role="alert"
       className={cn(alertVariants({ variant }), className)}
       {...props}
-    />
+    >
+      {props.children}
+      {/* Render the button if provided */}
+      {button && <div className="mt-4">{button}</div>}
+    </div>
   )
 }
 
