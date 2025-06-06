@@ -1,4 +1,16 @@
-import { LayoutDashboard, List, ScanLine, Handshake, Medal, Megaphone } from "lucide-react"
+'use client'
+
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+import { cn } from "@/lib/utils"
+import {
+  LayoutDashboard,
+  List,
+  ScanLine,
+  Handshake,
+  Medal,
+  Megaphone,
+} from "lucide-react"
 
 import {
   Sidebar,
@@ -11,58 +23,69 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
 
-// Menu items.
 const items = [
   {
     title: "Beranda",
-    url: "#",
+    url: "/operator/dashboard",
     icon: LayoutDashboard,
   },
   {
     title: "Jadwal Tes",
-    url: "#",
+    url: "/operator/jadwal-tes",
     icon: List,
   },
   {
     title: "Transaksi Peserta",
-    url: "#",
+    url: "/operator/transaksi",
     icon: ScanLine,
   },
   {
     title: "Mitra",
-    url: "#",
+    url: "/operator/mitra",
     icon: Handshake,
   },
   {
     title: "Periode Peserta",
-    url: "#",
+    url: "/operator/periode",
     icon: Medal,
   },
   {
     title: "Pengumuman",
-    url: "#",
+    url: "/operator/pengumuman",
     icon: Megaphone,
   },
 ]
 
 export function AppSidebar() {
+  const pathname = usePathname()
+
   return (
-    <Sidebar>
+  <Sidebar className="fixed top-[64px] left-0 w-64 h-[calc(100vh-64px)] bg-white !border-0">
       <SidebarContent>
-        <SidebarGroup>
-          <SidebarGroupLabel>Operator</SidebarGroupLabel>
+        <SidebarGroup className="pt-10 px-4">
+          {/* <SidebarGroupLabel>Operator</SidebarGroupLabel> */}
           <SidebarGroupContent>
             <SidebarMenu className="!gap-2">
-              {items.map((item) => (
-                <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton asChild  className="!p-2 !text-normal !font-medium gap-3">
-                    <a href={item.url}>
-                      <item.icon />
-                      <span>{item.title}</span>
-                    </a>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-              ))}
+              {items.map((item) => {
+                const isActive = pathname === item.url
+
+                return (
+                  <SidebarMenuItem key={item.title}>
+                    <SidebarMenuButton
+                      asChild
+                      className={cn(
+                        "!p-4 !text-normal !font-medium gap-3 hover:bg-[#F5F5F5]",
+                        isActive && "bg-[#E2E9F3]"
+                      )}
+                    >
+                      <Link href={item.url} className="flex items-center gap-3 w-full">
+                        <item.icon />
+                        <span>{item.title}</span>
+                      </Link>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                )
+              })}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
