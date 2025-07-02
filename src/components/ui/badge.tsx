@@ -18,15 +18,23 @@ const badgeVariants = cva(
         outline:
           "text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground",
 
-        greentpka:
-          "border-transparent h-hug w-hug bg-greentpka-0 text-green-900 [a&]:hover:bg-primary/90",
-        redtpka:
-          "border-transparent bg-redtpka-0 text-red-800 [a&]:hover:bg-primary/90",
-        graytpka:
-          "border-transparent bg-graytpka-0 text-zinc-800 [a&]:hover:bg-primary/90",
+        success:
+          "border-transparent h-hug w-hug bg-greentpka-0 text-green-900 [a&]:hover:bg-primary/90 h-fit",
+        warning:
+          "border-transparent h-hug w-hug bg-yellowtpka-0 text-yellowtpka-100 [a&]:hover:bg-primary/90 h-fit",
+        danger:
+          "border-transparent bg-redtpka-0 text-red-800 [a&]:hover:bg-primary/90 h-fit",
+        nonactive:
+          "border-transparent bg-graytpka-0 text-zinc-800 [a&]:hover:bg-primary/90 h-fit",
                 
-        biggreentpka:
-          "border-transparent !text-base !font-semibold !px-4 !py-2 bg-greentpka-0 text-green-900 [a&]:hover:bg-primary/90",
+        bigsuccess:
+          "border-transparent !rounded-3xl !text-base !font-semibold !px-3 !py-2 bg-greentpka-0 text-green-900 [a&]:hover:bg-primary/90 h-fit",
+        bigwarning:
+          "border-transparent !rounded-3xl !text-base !font-semibold !px-3 !py-2 bg-yellowtpka-0 text-yellowtpka-100 [a&]:hover:bg-primary/90 h-fit",
+        bigdanger:
+          "border-transparent !rounded-3xl !text-base !font-semibold !px-3 !py-2 bg-redtpka-0 text-red-800 [a&]:hover:bg-primary/90 h-fit",
+        bignonactive:
+          "border-transparent !rounded-3xl !text-base !font-semibold !px-3 !py-2 bg-graytpka-0 text-zinc-800 [a&]:hover:bg-primary/90 h-fit",
       },
     },
     defaultVariants: {

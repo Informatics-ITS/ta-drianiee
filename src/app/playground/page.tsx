@@ -96,7 +96,7 @@ const [date, setDate] = React.useState<Date | undefined>(new Date())
                 Button Aan punya 😋
                 </h2>
                 <div className='flex gap-2'>
-                    <Button variant="bluetpka">
+                    {/* <Button variant="bluetpka">
                         Bluetpka Button
                     </Button>
                     <Button variant="greentpka">
@@ -107,7 +107,7 @@ const [date, setDate] = React.useState<Date | undefined>(new Date())
                     </Button>
                     <Button variant="ghosttpka">
                         Ghosttpka Button
-                    </Button>
+                    </Button> */}
                 </div>
             </div>
         </div>
@@ -136,18 +136,18 @@ const [date, setDate] = React.useState<Date | undefined>(new Date())
                 </h2>
                 <div className='flex flex-col gap-2'>
                     <div className='flex gap-2'>
-                        <Badge variant="greentpka">
+                        <Badge variant="green">
                         Green Badge
                         </Badge>
-                        <Badge variant="redtpka">
+                        <Badge variant="red">
                         Red Badge
                         </Badge>
-                        <Badge variant="graytpka">
+                        <Badge variant="gray">
                         Gray Badge
                         </Badge>
                     </div>
                     <div className='flex gap-2'>
-                        <Badge variant="biggreentpka">
+                        <Badge variant="biggreen">
                         Big Green Badge
                         </Badge>
                     </div>
@@ -246,7 +246,7 @@ const [date, setDate] = React.useState<Date | undefined>(new Date())
                             </AlertDialogHeader>
                             <AlertDialogFooter>
                                 <AlertDialogCancel>Cancel</AlertDialogCancel>
-                                <AlertDialogAction variant="bluetpka">Continue</AlertDialogAction>
+                                <AlertDialogAction variant="blue">Continue</AlertDialogAction>
                             </AlertDialogFooter>
                         </AlertDialogContent>
                     </AlertDialog>

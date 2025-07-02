@@ -21,15 +21,22 @@ const buttonVariants = cva(
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
 
-        bluetpka:
-          "bg-bluetpka-100 text-primary-foreground shadow-xs hover:bg-bluetpka-200 [&_svg]:text-white",
+
         greentpka:
           "bg-greentpka-100 text-primary-foreground shadow-xs hover:bg-greentpka-200 [&_svg]:text-white",
-        redoutlinetpka:
-          "border bg-background shadow-xs text-redtpka-100 hover:bg-accent [&_svg]:text-redtpka-100",
         ghosttpka:
           "hover:bg-accent hover:text-accent-foreground",
 
+        blue:
+          "bg-bluetpka-100 text-primary-foreground shadow-xs hover:bg-bluetpka-200 [&_svg]:text-white",
+        bluenew:
+          "border bg-background shadow-xs text-bluetpka-100 hover:bg-accent [&_svg]:text-bluetpka-100",
+        normal:
+          "border bg-background shadow-xs text-primarytpka hover:bg-accent [&_svg]:text-primarytpka",
+        red:
+          "border bg-redtpka-100 shadow-xs text-primary-foreground hover:bg-redtpka-200 [&_svg]:text-white",
+        rednew:
+          "border bg-background shadow-xs text-redtpka-100 hover:bg-accent [&_svg]:text-redtpka-100",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",

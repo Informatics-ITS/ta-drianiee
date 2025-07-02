@@ -50,11 +50,16 @@
   --color-bluetpka-200: #00266E;
   --color-greentpka-100: #0D5E34;
   --color-greentpka-200: #004C22;
-  --color-redtpka-100: #791515;
+  --color-redtpka-100: #A10707;
+  --color-yellowtpka-0: #FEF9C3;
+  --color-yellowtpka-100: #A16207;
 
   --color-greentpka-0: #B9DDB1;
   --color-redtpka-0: #FEC3C3;
+  --color-redtpka-200: #980000;
   --color-graytpka-0: #E1E1E1;
+
+  --color-secondary: #4E4F53;
 }
 :root {
   --radius: 0.625rem;
