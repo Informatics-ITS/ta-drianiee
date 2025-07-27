@@ -1,10 +1,10 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Andrian Tambunan  
+**NRP**: 5025211018  
+**Judul TA**: Evaluasi dan Optimalisasi Desain Pengalaman Pengguna Sistem Tes Potensi Akademik (TPA) pada Studi Kasus myITS TPKA melalui Pendekatan User-Centered Design  
+**Dosen Pembimbing**: Siska Arifiani, S.Kom., M.Kom.  
+**Dosen Ko-pembimbing**: Wijayanti Nurul Khotimah, S.Kom., M.Sc., Ph.D.  
 
 ---
 
@@ -30,23 +30,18 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-drianiee.git
    ```
 2. **Instalasi Dependensi**
    ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   cd ta-drianiee
+   npm i
    ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
 4. **Jalankan Aplikasi**
    ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
+   npm run dev
    ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
+5. Buka browser dan kunjungi: `http://localhost:3000/component` (sesuaikan dengan port proyek Anda)
 
 ---
 
