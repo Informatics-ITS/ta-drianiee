@@ -1,5 +1,5 @@
 # 🏁 Tugas Akhir (TA) - Final Project
-
+  
 **Nama Mahasiswa**: Andrian Tambunan  
 **NRP**: 5025211018  
 **Judul TA**: Evaluasi dan Optimalisasi Desain Pengalaman Pengguna Sistem Tes Potensi Akademik (TPA) pada Studi Kasus myITS TPKA melalui Pendekatan User-Centered Design  
@@ -9,9 +9,8 @@
 ---
 
 ## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
-
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
+  
+[![Demo Aplikasi](https://github.com/user-attachments/assets/62e54a70-4b87-4f2d-87eb-ded580194ca4)](https://www.youtube.com/watch?v=uO7B1N1SBnY)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
@@ -21,11 +20,11 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
-  - Python 3.10+
+  - Next.js v15.3.2+
+  - React v18.3.1+
   - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+  - npm v9+ atau pnpm (opsional)
+  - TypeScript v5+
 
 ### Langkah-langkah  
 1. **Clone Repository**  
@@ -41,30 +40,13 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
    ```bash
    npm run dev
    ```
-5. Buka browser dan kunjungi: `http://localhost:3000/component` (sesuaikan dengan port proyek Anda)
-
----
-
-## 📚 Dokumentasi Tambahan
-
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
-
----
-
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+5. Buka browser dan kunjungi: `http://localhost:3000/component` 
 
 ---
 
 ## ⁉️ Pertanyaan?
 
-Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+Silakan hubungi:
+
+* Penulis: [5025211018@student.its.ac.id](mailto:5025211018@student.its.ac.id)
+* Pembimbing: [siska@its.ac.id](mailto:siska@its.ac.id)
