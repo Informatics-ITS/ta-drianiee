@@ -10,13 +10,10 @@
 
 ## 📺 Demo Aplikasi  
   
-[![Demo Aplikasi](<img width="6000" height="3375" alt="test ppt-1" src="https://github.com/user-attachments/assets/45ba3bff-704f-458a-b7b8-85dc87d4fe47" />
-)](https://www.youtube.com/watch?v=FZzLCT1cSRQ)  
+[![Demo Aplikasi](https://github.com/user-attachments/assets/480999c5-358a-46ce-b954-c1fc03bfd73f)](https://www.youtube.com/watch?v=FZzLCT1cSRQ)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
-
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
 
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
