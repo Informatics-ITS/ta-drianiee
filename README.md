@@ -10,7 +10,8 @@
 
 ## 📺 Demo Aplikasi  
   
-[![Demo Aplikasi](https://github.com/user-attachments/assets/62e54a70-4b87-4f2d-87eb-ded580194ca4)](https://www.youtube.com/watch?v=uO7B1N1SBnY)  
+[![Demo Aplikasi](<img width="6000" height="3375" alt="test ppt-1" src="https://github.com/user-attachments/assets/45ba3bff-704f-458a-b7b8-85dc87d4fe47" />
+)](https://www.youtube.com/watch?v=FZzLCT1cSRQ)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
