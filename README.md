@@ -46,5 +46,5 @@
 
 Silakan hubungi:
 
-* Penulis: [5025211018@student.its.ac.id](mailto:5025211018@student.its.ac.id)
+* Penulis: [andriantambunan2752@gmail.com](mailto:andriantambunan2752@gmail.com)
 * Pembimbing: [siska@its.ac.id](mailto:siska@its.ac.id)
